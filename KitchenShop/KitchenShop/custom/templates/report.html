@@ -1,0 +1,25 @@
+﻿{% extends "base.html" %}
+{% block title %}Order Tracking{% endblock %}
+
+{% block content %}
+<div class="row mt-4">
+    <div class="col col-md-8 offset-md-2 alert alert-primary text-black text-center">
+        <span class="h3">📦 INVENTORY REPORT 📦</span>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col col-md-8 offset-md-2">
+        <div class="row bg-dark text-white">
+            <span class="col col-2 text-center">Category Id</span>
+            <span class="col col-10">Description</span>
+        </div>
+        {% for category in categories %}
+            <div class="row flex-row align-items-center border-bottom">
+                <span class="col col-2 text-center">{{ category.id }}</span>
+                <span class="col col-10">{{ category.description }}</span>
+            </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}
