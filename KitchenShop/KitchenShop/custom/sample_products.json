@@ -1,0 +1,21 @@
+[
+  { "pk": 1,  "model": "custom.Product", "fields": { "category": 1,  "description": "Mixing bowl" } },
+  { "pk": 2,  "model": "custom.Product", "fields": { "category": 2,  "description": "Cheese grater" } },
+  { "pk": 3,  "model": "custom.Product", "fields": { "category": 3,  "description": "Microwave oven" } },
+  { "pk": 4,  "model": "custom.Product", "fields": { "category": 4,  "description": "Bread knife" } },
+  { "pk": 5,  "model": "custom.Product", "fields": { "category": 4,  "description": "Chef's knife" } },
+  { "pk": 6,  "model": "custom.Product", "fields": { "category": 4,  "description": "Paring knife" } },
+  { "pk": 7,  "model": "custom.Product", "fields": { "category": 4,  "description": "Pizza cutter" } },
+  { "pk": 8,  "model": "custom.Product", "fields": { "category": 6,  "description": "Balloon whisk" } },
+  { "pk": 9,  "model": "custom.Product", "fields": { "category": 6,  "description": "Blender" } },
+  { "pk": 10, "model": "custom.Product", "fields": { "category": 7,  "description": "Bottle opener" } },
+  { "pk": 11, "model": "custom.Product", "fields": { "category": 7,  "description": "Can opener" } },
+  { "pk": 12, "model": "custom.Product", "fields": { "category": 8,  "description": "Saucepan" } },
+  { "pk": 13, "model": "custom.Product", "fields": { "category": 8,  "description": "Frying pan" } },
+  { "pk": 14, "model": "custom.Product", "fields": { "category": 9,  "description": "Soup pot" } },
+  { "pk": 15, "model": "custom.Product", "fields": { "category": 10, "description": "Ladle" } },
+  { "pk": 16, "model": "custom.Product", "fields": { "category": 11, "description": "Kitchen shear" } },
+  { "pk": 17, "model": "custom.Product", "fields": { "category": 12, "description": "Silicone spatula" } },
+  { "pk": 18, "model": "custom.Product", "fields": { "category": 13, "description": "Sieve" } },
+  { "pk": 19, "model": "custom.Product", "fields": { "category": 13, "description": "Colander" } }
+]

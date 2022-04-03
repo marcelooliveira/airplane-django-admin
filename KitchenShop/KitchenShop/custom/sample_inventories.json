@@ -1,0 +1,21 @@
+[
+ { "pk": 1, "model": "custom.Inventory", "fields": { "product": 1, "quantity": 28, "unit_price": 6.2  } },
+ { "pk": 2, "model": "custom.Inventory", "fields": { "product": 2, "quantity": 23, "unit_price": 12.96 } },
+ { "pk": 3, "model": "custom.Inventory", "fields": { "product": 3, "quantity": 4, "unit_price": 5.23 } },
+ { "pk": 4, "model": "custom.Inventory", "fields": { "product": 4, "quantity": 4, "unit_price": 12.44 } },
+ { "pk": 5, "model": "custom.Inventory", "fields": { "product": 5, "quantity": 9, "unit_price": 5.43 } },
+ { "pk": 6, "model": "custom.Inventory", "fields": { "product": 6, "quantity": 23, "unit_price": 10.27 } },
+ { "pk": 7, "model": "custom.Inventory", "fields": { "product": 7, "quantity": 10, "unit_price": 6.93 } },
+ { "pk": 8, "model": "custom.Inventory", "fields": { "product": 8, "quantity": 17, "unit_price": 6.51 } },
+ { "pk": 9, "model": "custom.Inventory", "fields": { "product": 9, "quantity": 19, "unit_price": 11.4 } },
+ { "pk": 10, "model": "custom.Inventory", "fields": { "product": 10, "quantity": 27, "unit_price": 10.09 } },
+ { "pk": 11, "model": "custom.Inventory", "fields": { "product": 11, "quantity": 9, "unit_price": 14.55 } },
+ { "pk": 12, "model": "custom.Inventory", "fields": { "product": 12, "quantity": 6, "unit_price": 6.17 } },
+ { "pk": 13, "model": "custom.Inventory", "fields": { "product": 13, "quantity": 13, "unit_price": 8.26 } },
+ { "pk": 14, "model": "custom.Inventory", "fields": { "product": 14, "quantity": 27, "unit_price": 9.76 } },
+ { "pk": 15, "model": "custom.Inventory", "fields": { "product": 15, "quantity": 12, "unit_price": 7.79 } },
+ { "pk": 16, "model": "custom.Inventory", "fields": { "product": 16, "quantity": 21, "unit_price": 11.15 } },
+ { "pk": 17, "model": "custom.Inventory", "fields": { "product": 17, "quantity": 10, "unit_price": 10.48 } },
+ { "pk": 18, "model": "custom.Inventory", "fields": { "product": 18, "quantity": 24, "unit_price": 12.53 } },
+ { "pk": 19, "model": "custom.Inventory", "fields": { "product": 19, "quantity": 3, "unit_price": 5.93 } }
+]

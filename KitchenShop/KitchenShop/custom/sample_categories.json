@@ -1,0 +1,15 @@
+[
+  { "pk": 1, "model": "custom.Category", "fields": { "description": "Bowls" } },
+  { "pk": 2, "model": "custom.Category", "fields": { "description": "Graters" } },
+  { "pk": 3, "model": "custom.Category", "fields": { "description": "Heaters" } },
+  { "pk": 4, "model": "custom.Category", "fields": { "description": "Knives" } },
+  { "pk": 5, "model": "custom.Category", "fields": { "description": "Mashers" } },
+  { "pk": 6, "model": "custom.Category", "fields": { "description": "Mixers" } },
+  { "pk": 7, "model": "custom.Category", "fields": { "description": "Openers" } },
+  { "pk": 8, "model": "custom.Category", "fields": { "description": "Pans" } },
+  { "pk": 9, "model": "custom.Category", "fields": { "description": "Pots" } },
+  { "pk": 10, "model": "custom.Category", "fields": { "description": "Scoopers" } },
+  { "pk": 11, "model": "custom.Category", "fields": { "description": "Slicers" } },
+  { "pk": 12, "model": "custom.Category", "fields": { "description": "Spatulas" } },
+  { "pk": 13, "model": "custom.Category", "fields": { "description": "Strainers" } }
+]
