@@ -1,45 +1,55 @@
-1	Baking parchment
-2	Baking sheet
-3	Balloon whisk
-4	Blender
-5	Bottle opener
-6	Bread bin
-7	Bread knife
-8	Can opener
-9	Chef's knife
-10	Chopping board
-11	Colander
-12	Corkscrew
-13	Food thermometer
-14	Frying pan
-15	Garlic press
-16	Grater
-17	Kitchen foil 
-18	Kitchen scales 
-19	Kitchen shear
-20	Kitchen tool organizer
-21	Knife sharpening
-22	Ladle
-23	Masher 
-24	Measuring jug
-25	Measuring spoon
-26	Mixing bowl
-27	Oven glove
-28	Ovenproof dish
-29	Paring knife
-30	Pasta fork
-31	Pizza cutter
-32	Plastic container
-33	Plastic wrap
-34	Plastic zipper bag
-35	Pot holder
-36	Roasting tin
-37	Rolling pin
-38	Saucepan
-39	Sieve
-40	Slotted spoon
-41	Spatula
-42	Stirring spoon
-43	Tea towel
-44	Tong
-45	Vegetable peeler
+Bowls	  { 'category': 1, 'model': 'custom.Category', 'fields': { 'description': 'Bowls' } },
+
+  Mixing bowl
+
+Graters	  { 'category': 2, 'model': 'custom.Category', 'fields': { 'description': 'Graters' } },
+
+  Cheese grater
+
+Heaters	  { 'category': 3, 'model': 'custom.Category', 'fields': { 'description': 'Heaters' } },
+
+  Microwave oven
+
+Knives	  { 'category': 4, 'model': 'custom.Category', 'fields': { 'description': 'Knives' } },
+
+  Bread knife
+  Chef's knife
+  Paring knife
+  Pizza cutter
+
+Mashers	  { 'category': 5, 'model': 'custom.Category', 'fields': { 'description': 'Mashers' } },
+Mixers	  { 'category': 6, 'model': 'custom.Category', 'fields': { 'description': 'Mixers' } },
+
+  Balloon whisk
+  Blender
+
+Openers	  { 'category': 7, 'model': 'custom.Category', 'fields': { 'description': 'Openers' } },
+
+  Bottle opener
+  Can opener
+
+Pans	  { 'category': 8, 'model': 'custom.Category', 'fields': { 'description': 'Pans' } },
+
+  Saucepan
+  Frying pan
+
+Pots	  { 'category': 9, 'model': 'custom.Category', 'fields': { 'description': 'Pots' } },
+
+  Soup pot
+
+Scoopers	  { 'category': 10, 'model': 'custom.Category', 'fields': { 'description': 'Scoopers' } },
+
+  Ladle
+
+Slicers	  { 'category': 11, 'model': 'custom.Category', 'fields': { 'description': 'Slicers' } },
+
+  Kitchen shear
+
+Spatulas	  { 'category': 12, 'model': 'custom.Category', 'fields': { 'description': 'Spatulas' } },
+
+  Silicone spatula
+
+Strainers	  { 'category': 13, 'model': 'custom.Category', 'fields': { 'description': 'Strainers' } },
+
+  Sieve
+  Colander
