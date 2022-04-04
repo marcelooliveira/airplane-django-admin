@@ -8,18 +8,35 @@
     </div>
 </div>
 
+{% regroup inventories by product as product_list %}
+{% regroup product_list by grouper.category as category_list %}
+
+{% for category in category_list %}
 <div class="row">
     <div class="col col-md-8 offset-md-2">
-        <div class="row bg-dark text-white">
-            <span class="col col-2 text-center">Category Id</span>
-            <span class="col col-10">Description</span>
-        </div>
-        {% for category in categories %}
             <div class="row flex-row align-items-center border-bottom">
-                <span class="col col-2 text-center">{{ category.id }}</span>
-                <span class="col col-10">{{ category.description }}</span>
+                <span class="col col-10"><em>{{ category.grouper.description }}</em></span>
+                <div class="row">
+                    <div class="col col-md-8 offset-md-2">
+                        <div class="row bg-light text-white border-bottom border-dark">
+                            <span class="col col-4 text-dark">Product</span>
+                            <span class="col col-4 text-dark text-end">Unit Price ($)</span>
+                            <span class="col col-4 text-dark text-end">Quantity</span>
+                        </div>
+                        {% for product in category.list %}
+
+                        <div class="row flex-row align-items-center border-bottom">
+                            {% for inventory in product.list %}
+                            <span class="col col-4">{{ inventory.product.description }}</span>
+                            <span class="col col-4 text-end">{{ inventory.unit_price }}</span>
+                            <span class="col col-4 text-end">{{ inventory.quantity }}</span>
+                            {% endfor %}         
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
             </div>
-        {% endfor %}
+        </div>
     </div>
-</div>
+    {% endfor %}
 {% endblock %}

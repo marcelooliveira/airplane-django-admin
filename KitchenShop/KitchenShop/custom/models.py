@@ -3,7 +3,7 @@ from django.core.validators import MaxValueValidator, MinValueValidator
 
 class Category(models.Model):
     description = models.TextField()
-
+    
     class Meta:
         verbose_name_plural = "Categories"
 
@@ -12,8 +12,7 @@ class Category(models.Model):
 
 class Product(models.Model):
     description = models.TextField()
-    category = models.ForeignKey(Category, on_delete=models.CASCADE)
-    
+    category = models.ForeignKey(Category, on_delete=models.CASCADE, related_name='products')
     class Meta:
         verbose_name_plural = "Products"
 
