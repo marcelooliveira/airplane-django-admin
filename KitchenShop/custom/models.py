@@ -34,4 +34,3 @@ class Inventory(models.Model):
     def __str__(self):
         product_description = Product.objects.filter(id=self.product.id)[0].description
         return f"{product_description}, qty: {self.quantity}, unit price: ${self.unit_price:2}"
-
